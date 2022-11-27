@@ -17,13 +17,15 @@
 }
 
 #profile-ctr div {
-  padding: 20px 20 tomato;
-  border: 1px solid #3C6E71;
-  text-align: center;
+  padding: 20px tomato;
+  /* border: 5px solid #3C6E71; */
   color: #fff;
 } 
-#profile-ctr img {
-  /* align-items: center; */
+#profile-ctr p {
+  justify-self:  center;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
   width: 20vw;
   height: 20%;
   padding: 2px;
@@ -50,9 +52,10 @@ font-size: small;
       background-color: #555;
       margin: 0 10px auto;
     }
-
+  
   .profile-ctr {
     background: #f3f3f33a;
+    grid-template-columns: auto;
   }
   img {
     width: 50px;
