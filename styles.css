@@ -22,7 +22,7 @@
   /* border: 5px solid #3C6E71; */
   color: #fff;
 } 
-#profile-ctr img {
+#profile-ctr img, p {
   padding-right: 5px solid blue;
   width: 20vw;
   height: 20%;
@@ -31,7 +31,8 @@
 p {
   /* justify-content: right; */
   margin-left: 2px;
-  width: 10vh auto;
+  width: 20vh;
+  font-size: 20%;
   letter-spacing: 10px;
   font-weight: bold; 
 }
