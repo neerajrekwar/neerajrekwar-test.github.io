@@ -16,17 +16,18 @@
   background: #00629b77;
 }
 
-#profile-ctr, div {
+#profile-ctr div {
   padding: 20px 20 tomato;
-  margin: 5px;
   border: 1px solid #3C6E71;
+  text-align: center;
   color: #fff;
 } 
 #profile-ctr img {
-  align-items: center;
+  /* align-items: center; */
   width: 20vw;
   height: 20%;
-  padding: 20px;
+  padding: 2px;
+  border-radius: 50%;
 }
 p {
   /* justify-content: right;
