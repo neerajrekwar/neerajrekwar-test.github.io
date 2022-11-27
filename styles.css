@@ -29,11 +29,7 @@
   padding: 0px 0px 0px 0px;
 }
 p {
-  justify-content: right;
-  margin-left: 2px;
-  width: 10vh;
   height: 20%;
-  font-size: 0.5rem;
   letter-spacing: 10px;
   font-weight: 600; 
 }
@@ -58,7 +54,17 @@ font-size: small;
     padding: 20px solid blue;
     background: #f3f3f33a;
     justify-content: center;
+    border-radius: ;
+    text-align: center;
   } 
+  img {
+    border-radius: 50%;
+    margin: 20px, 20% auto ;
+    padding: 2px solid blue;
+  }
+  p{
+    border: 2px solid tomato;
+  }
   #full-size-h {
     color: rgb(6, 238, 238);
     font-family: 'Courier New', Courier, monospace;
