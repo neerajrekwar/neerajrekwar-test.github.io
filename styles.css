@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: #fff;
 }
@@ -8,36 +8,36 @@
   display: flex;
   margin: 0 auto;
   padding: 20px;
+  
 }
 
 #profile-ctr {
   margin: 0 auto;
-  padding: 5px;
   max-width: 440px;
-  background: rgba(0, 0, 0, 0.322);
+  background: rgba(53, 53, 53, 1.9);
+  
+  padding: 2px;
 }
-
 #profile-ctr div {
-  padding: 20px tomato;
-  /* border: 5px solid #3C6E71; */
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
   color: #fff;
-} 
-#profile-ctr img, p {
-  padding-right: 5px solid blue;
-  width: 20vw;
-  height: 20%;
-  padding: 0px 0px 0px 0px;
 }
 p {
-  height: 20%;
+  text-align: center;
   letter-spacing: 10px;
-  font-weight: 600; 
+  font-weight: bold;
 }
-
-#full-size-h,
-#h {
-color: rgb(0, 0, 0);
-font-family: 'Courier New', Courier, monospace;
+img {
+  width: 20vw;
+  height: 20%;
+  padding: 20px;
+  border-radius: 25px;
+}
+#full-size-h, #h {
+color: #555;
+/* font-family: 'Courier New', Courier, monospace; */
 font-style: italic;
 text-align: center;
 font-size: small;
@@ -49,27 +49,25 @@ font-size: small;
       background-color: #555;
       margin: 0 10px auto;
     }
-  
-  #profile-ctr {
-    padding: 20px solid blue;
-    background: #f3f3f33a;
-    justify-content: center;
-    border-radius: ;
-    text-align: center;
-  } 
-  img {
-    border-radius: 50%;
-    margin: 20px, 20% auto ;
-    padding: 2px solid blue;
+
+  .profile-ctr {
+      color: #555;
+      padding: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
-  p{
-    border: 2px solid tomato;
+  img {
+    width: 50px;
+    height: 100%;
+    padding: 1vh;
+    border-radius: 25px;  
+  }  
+  p {
+    padding: 1vh;
   }
   #full-size-h {
-    color: rgb(6, 238, 238);
-    font-family: 'Courier New', Courier, monospace;
+    color: rgba(6, 238, 238, 0.308);
+    font-size: small;
     font-style: italic;
-    font-weight: 100;
 
   }
 } 
