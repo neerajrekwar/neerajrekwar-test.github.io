@@ -12,6 +12,7 @@
 
 #profile-ctr {
   margin: 0 auto;
+  padding: 5px;
   max-width: 440px;
   background: #00629b77;
 }
@@ -21,17 +22,18 @@
   /* border: 5px solid #3C6E71; */
   color: #fff;
 } 
-#profile-ctr p {
-  margin: 0 auto;
+#profile-ctr img {
+  padding-right: 5px solid blue;
   width: 20vw;
   height: 20%;
   padding: 0px 0px 0px 0px;
-  border-radius: 50%;
 }
 p {
-   justify-content: right;
-  letter-spacing: 1px;
-  font-weight: 500; 
+  /* justify-content: right; */
+  margin-left: 2px;
+  width: 10vh auto;
+  letter-spacing: 10px;
+  font-weight: bold; 
 }
 
 #full-size-h,
