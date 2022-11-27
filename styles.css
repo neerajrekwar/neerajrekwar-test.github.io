@@ -22,19 +22,16 @@
   color: #fff;
 } 
 #profile-ctr p {
-  justify-self:  center;
-  justify-items: center;
-  justify-content: center;
-  text-align: center;
+  margin: 0 auto;
   width: 20vw;
   height: 20%;
-  padding: 2px;
+  padding: 0px 0px 0px 0px;
   border-radius: 50%;
 }
 p {
-  /* justify-content: right;
+   justify-content: right;
   letter-spacing: 1px;
-  font-weight: 500; */
+  font-weight: 500; 
 }
 
 #full-size-h,
