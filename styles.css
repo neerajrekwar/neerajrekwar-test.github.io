@@ -62,20 +62,24 @@ body {
 .cards {
   border-radius: 8px;
   padding: 5px;
-  background-color: #000;
-  margin: 10px;
-  width: 80%;
+  background-color: #353535;
+  margin: 2px;
+  width: 100%;
   height: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
   gap: 20px;
 }
 .card {
-  background-color: green;
+  background-color: #FFFFFF;
   height: 200px;
-  border-radius: 8px;
+  border-radius: 3px;
 }
-  
+.card > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* ----------------------------------Grid template columns */
 
 @media (max-width: 500px) {
