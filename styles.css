@@ -87,22 +87,22 @@ nav li a{
   align-items: center;
   justify-content: center;
 }
-/* ----------------------------------page2 */
+/* ------------------------------------------------------------------------page2 ---------------------------------------------------------------------------*/
 .Sub_containerB {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: content-box;
-  gap: 5px;
+  gap: 15px;
 }
 .t_container {
   display: table;
   content: " ";
-  clear: both;
+  /* clear: both; */
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  /* width: 100%; */
   
 }
 a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, span, table, td, th, tr, u, video  {
@@ -113,16 +113,19 @@ a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, spa
 }
 .t404__col {
   margin-bottom: 40px;
-  gap: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  /* gap: 5px; */
 }
 .t-col {
-  border: 2px solid;
+  border: 2px solid #000;
   text-align: left;
   display: inline;
   float: left;
   /* margin-left: 20px;
   margin-right: 20px; */
   width: 100%;
+  gap: 5px;
 }
 .t-col_6 {
   max-width: 560px;
