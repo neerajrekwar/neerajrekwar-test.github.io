@@ -25,7 +25,7 @@ nav li a{
   background-color: #b2d1d3;
   margin: 0;
   height: 500px;
-  padding: 2px;
+  padding: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
