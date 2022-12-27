@@ -93,6 +93,7 @@ nav li a{
   padding: 0;
   border: 0;
   box-sizing: content-box;
+  gap: 5px;
 }
 .t_container {
   display: table;
@@ -101,8 +102,8 @@ nav li a{
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
   width: 100%;
+  
 }
 a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, span, table, td, th, tr, u, video  {
   margin: 0;
@@ -112,6 +113,7 @@ a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, spa
 }
 .t404__col {
   margin-bottom: 40px;
+  gap: 5px;
 }
 .t-col {
   border: 2px solid;
@@ -150,19 +152,46 @@ a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, spa
   margin-top: 12px;
   margin-bottom: 10px;
 }
-.t-uptitle{}
-.t404__tag{}
-.t404__date{}
-.t404__title {}
-.t-heading {}
-.t-heading_xs{}
-.t404__descr {}
-.t-descr {}
-.t-descr_xs{}
-.t404__col {}
-.t-col {}
-.t-col_6 {}
-.t-align_left{}
+.t-uptitle{
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: 2.5px;
+}
+.t404__tag{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #777;
+}
+.t404__date{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #777;
+}
+.t404__title {
+  margin-bottom: 12px;
+}
+.t-heading {
+  font-weight: 600;
+  color: #353535;
+}
+.t-heading_xs{
+  font-size: 26px;
+  line-height: 1.23;
+}
+.t404__descr {
+  color: #777;
+}
+.t-descr {
+  font-weight: 300;
+}
+.t-descr_xs{
+  font-size: 16px;
+  line-height: 1.55;
+}
 
 /* ----------------------------------page2 */
 /* ----------------------------------Grid template columns */
