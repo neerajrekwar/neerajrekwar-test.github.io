@@ -140,7 +140,7 @@ video {
   /* gap: 5px; */
 }
 .t404__col a {
-  /* clear: both; */
+  clear: both;
   margin: 20px;
 
   }
