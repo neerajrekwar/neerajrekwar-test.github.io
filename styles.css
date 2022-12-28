@@ -133,23 +133,28 @@ video {
   box-sizing: content-box;
 }
 .t404__col {
+  background-color: #b4eb9b67;
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
   /* gap: 5px; */
 }
 .t404__col a {
-  gap: 12px;
   clear: both;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .t-col {
+  background-color: #b4eb9b67;
   border: 2px solid #000;
+  /* margin-left: 20px;
+  margin-right: 20px; */
   text-align: left;
   display: inline;
   float: left;
   width: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
 }
 .t-col_6 {
@@ -225,7 +230,10 @@ video {
 
 /* ----------------------------------page2 */
 /* ----------------------------------Grid template columns */
-
+/* @media screen and (max-width: 960px){
+  .t-container {
+   max-width: 640px;
+ } */
 @media (max-width: 500px) {
   body {
     background-color: rgb(253, 253, 253);
