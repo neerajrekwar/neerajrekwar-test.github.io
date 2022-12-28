@@ -100,8 +100,8 @@ nav li a {
   content: ' ';
   clear: both;
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20px;
+  margin-right: 20px;
   /* width: 100%; */
 }
 a,
