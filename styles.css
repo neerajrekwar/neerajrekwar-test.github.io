@@ -2,6 +2,8 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 body, main {
   margin: 0;
@@ -21,7 +23,7 @@ nav li a{
 }
 .container {
   /* display: none; */
-  border: 2px solid  #000;
+  /* border: 2px solid  #000; */
   background-color: #b2d1d3;
   margin: 0;
   height: 500px;
@@ -31,7 +33,7 @@ nav li a{
   justify-content: center;
 }
 .ctra {
-  border: 2px solid  #000;
+  /* border: 2px solid  #000; */
   background-color: #d36c18d7;
   width: 80%;
   height: 180px;
@@ -41,22 +43,23 @@ nav li a{
   gap: 2px;
 }
 .ctra-box {
-  border: 2px solid  #000;
+  /* border: 2px solid  #000; */
   background-color: #40500767;
   width: 20%;
   height: 60px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   gap: 2px;
 }
 .tctra_col {
   background-color: #b4eb9b67;
   width: 20%;
-  height: 40px;
+  height: 12px;
   gap: 2px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: start;
 }
 
 
@@ -87,7 +90,7 @@ nav li a{
   align-items: center;
   justify-content: center;
 }
-/* ------------------------------------------------------------------------page2 ---------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------page2---------------------------------------------------------------------------*/
 .Sub_containerB {
   margin: 0;
   padding: 0;
@@ -118,7 +121,7 @@ a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, spa
   /* gap: 5px; */
 }
 .t-col {
-  border: 2px solid #000;
+  /* border: 2px solid #000; */
   text-align: left;
   display: inline;
   float: left;
@@ -152,15 +155,18 @@ a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, spa
   margin-top: 16px;
 }
 .t404__uptitle {
+  
   margin-top: 12px;
   margin-bottom: 10px;
 }
 .t-uptitle{
+  
   font-weight: 600;
   color: #000000;
   letter-spacing: 2.5px;
 }
 .t404__tag{
+  
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
@@ -175,15 +181,17 @@ a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, spa
   color: #777;
 }
 .t404__title {
-  margin-bottom: 12px;
+  border: 2px solid;
+  margin-bottom: 30px;
+  margin-top: 12px;
 }
 .t-heading {
   font-weight: 600;
   color: #353535;
 }
 .t-heading_xs{
-  font-size: 26px;
-  line-height: 1.23;
+  font-size: 20px;
+  line-height: 1.20;
 }
 .t404__descr {
   color: #777;
@@ -203,7 +211,7 @@ a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, spa
     
     body{
       background-color: rgb(253, 253, 253);
-      margin: 0 10px auto;
+      margin: 0 auto;
     }
 
   #full-size-h {
