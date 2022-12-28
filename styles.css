@@ -5,13 +5,11 @@
   margin: 0;
   padding: 0;
 }
-body, main {
-  margin: 0;
-}
+
 h2 {
   margin: 0;
 }
-nav li a{
+nav li a {
   color: #000;
   list-style: none;
   text-decoration: none;
@@ -62,7 +60,6 @@ nav li a{
   justify-content: start;
 }
 
-
 /* ----------------------------------Grid template columns */
 .grid {
   display: flex;
@@ -77,11 +74,11 @@ nav li a{
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
 }
 .card {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   height: 200px;
   border-radius: 3px;
 }
@@ -100,15 +97,36 @@ nav li a{
 }
 .t_container {
   display: table;
-  content: " ";
-  /* clear: both; */
+  content: ' ';
+  clear: both;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   /* width: 100%; */
-  
 }
-a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, span, table, td, th, tr, u, video  {
+a,
+b,
+blockquote,
+center,
+code,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+img,
+p,
+pre,
+span,
+table,
+td,
+th,
+tr,
+u,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -120,60 +138,59 @@ a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, spa
   margin-right: auto;
   /* gap: 5px; */
 }
+.t404__col a {
+  gap: 12px;
+  clear: both;
+}
 .t-col {
   /* border: 2px solid #000; */
   text-align: left;
   display: inline;
   float: left;
-  /* margin-left: 20px;
-  margin-right: 20px; */
   width: 100%;
   gap: 5px;
 }
 .t-col_6 {
   max-width: 560px;
 }
-.t-align_left{
+.t-align_left {
   text-align: left;
 }
-.t404__link{
+.t404__link {
   text-decoration: none;
   color: #000;
 }
 .t404__imgbox {
   position: relative;
 }
-.t404__imgbox img{
+.t404__imgbox img {
   width: 100%;
   height: auto;
 }
-.t404__separator{
+.t404__separator {
   height: 50px;
 }
-.t404__textwrapper{
+.t404__textwrapper {
   margin-bottom: 28px;
   margin-top: 16px;
 }
 .t404__uptitle {
-  
   margin-top: 12px;
   margin-bottom: 10px;
 }
-.t-uptitle{
-  
+.t-uptitle {
   font-weight: 600;
   color: #000000;
   letter-spacing: 2.5px;
 }
-.t404__tag{
-  
+.t404__tag {
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 1px;
   color: #777;
 }
-.t404__date{
+.t404__date {
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
@@ -181,7 +198,7 @@ a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, spa
   color: #777;
 }
 .t404__title {
-  border: 2px solid;
+  /* border: 2px solid; */
   margin-bottom: 30px;
   margin-top: 12px;
 }
@@ -189,9 +206,9 @@ a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, spa
   font-weight: 600;
   color: #353535;
 }
-.t-heading_xs{
+.t-heading_xs {
   font-size: 20px;
-  line-height: 1.20;
+  line-height: 1.2;
 }
 .t404__descr {
   color: #777;
@@ -199,7 +216,7 @@ a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, spa
 .t-descr {
   font-weight: 300;
 }
-.t-descr_xs{
+.t-descr_xs {
   font-size: 16px;
   line-height: 1.55;
 }
@@ -208,16 +225,14 @@ a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, spa
 /* ----------------------------------Grid template columns */
 
 @media (max-width: 500px) {
-    
-    body{
-      background-color: rgb(253, 253, 253);
-      margin: 0 auto;
-    }
+  body {
+    background-color: rgb(253, 253, 253);
+    margin: 0 auto;
+  }
 
   #full-size-h {
     color: rgb(0, 0, 0);
     font-size: small;
     font-style: italic;
-
   }
-} 
+}
