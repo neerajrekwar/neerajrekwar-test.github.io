@@ -133,20 +133,20 @@ video {
   box-sizing: content-box;
 }
 .t404__col {
-  background-color: #b4eb9b67;
+  /* background-color: #b4eb9b67; */
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
   /* gap: 5px; */
 }
 .t404__col a {
-  clear: both;
-  margin-left: 20px;
-  margin-right: 20px;
-}
+  /* clear: both; */
+  margin: 20px;
+
+  }
 .t-col {
-  background-color: #b4eb9b67;
-  border: 2px solid #000;
+  /* background-color: #b4eb9b67; */
+  /* border: 2px solid #000; */
   /* margin-left: 20px;
   margin-right: 20px; */
   text-align: left;
@@ -164,6 +164,7 @@ video {
   text-align: left;
 }
 .t404__link {
+  margin: 5px;
   text-decoration: none;
   color: #000;
 }
