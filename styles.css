@@ -143,12 +143,14 @@ video {
   clear: both;
 }
 .t-col {
-  /* border: 2px solid #000; */
+  border: 2px solid #000;
   text-align: left;
   display: inline;
   float: left;
   width: 100%;
-  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+
 }
 .t-col_6 {
   max-width: 560px;
