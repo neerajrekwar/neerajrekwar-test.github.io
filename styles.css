@@ -16,6 +16,28 @@ main{
   color: #fff;
   /* border: 2px solid darkblue; */
 }
+
+header{
+  position: sticky;
+  border: 2px solid greenyellow
+  height: auto
+}
+nav{}
+ul{
+  display: inline-flex;
+  justify-content: ;
+  align-items: center;
+}
+li{
+  color: #fff;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
 .container {
   overflow: hidden;
   color: #353535;
