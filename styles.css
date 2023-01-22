@@ -13,7 +13,8 @@ body{
   background-color: rgb(54, 59, 65);
 }
 main{
-  margin: 20px;
+  border: 2px solid darkblue;
+  padding: 10px;
 }
 .container {
   color: #353535;
