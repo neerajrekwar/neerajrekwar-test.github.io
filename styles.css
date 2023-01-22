@@ -15,14 +15,12 @@ body{
 main{
   color: #fff;
   /* border: 2px solid darkblue; */
-  padding: 1.0em;
 }
 .container {
   color: #353535;
   background: aliceblue;
   margin: 0 auto;
   width: 344px;
-  margin: 0;
   height: 500px;
   padding: 30px;
   border-radius: 25px;
@@ -76,15 +74,14 @@ button{
 button:hover{
   height: 2.6em;
   width: 8.6em;
-  transition: padding 2s ease-in-out;
+  transition: margin-right 2s ease-in-out .5s;
+  transform: matrix3d();
   
 }
 .btn1{
-
   border: 2px solid;
 }
 .btn2{
-
   border: none;
   color: aliceblue;
   background: linear-gradient(45deg, hsla(34, 86%, 58%, 1) 0%, hsla(335, 81%, 65%, 1) 100%);
