@@ -13,8 +13,9 @@ body{
   background-color: rgb(54, 59, 65);
 }
 main{
+  color: #fff;
   /* border: 2px solid darkblue; */
-  padding: 10px;
+  padding: 1.0em;
 }
 .container {
   color: #353535;
