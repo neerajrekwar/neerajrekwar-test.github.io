@@ -64,16 +64,24 @@ input{
 }
 
 button{
-
   height: 2.5em;
-  width: 5.5em;
+  width: 8.5em;
+  /* width: 80%; */
   border-radius: 25px;
+  display: inline-flex;
 }
-
+button:hover{
+  height: 2.6em;
+  width: 8.6em;
+  transition: padding 2s ease-in-out;
+  
+}
 .btn1{
+
   border: 2px solid;
 }
 .btn2{
+
   border: none;
   color: aliceblue;
   background: linear-gradient(45deg, hsla(34, 86%, 58%, 1) 0%, hsla(335, 81%, 65%, 1) 100%);
