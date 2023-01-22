@@ -17,6 +17,7 @@ main{
   /* border: 2px solid darkblue; */
 }
 .container {
+  overflow: hidden;
   color: #353535;
   background: aliceblue;
   margin: 0 auto;
