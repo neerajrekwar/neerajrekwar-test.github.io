@@ -5,21 +5,16 @@
   margin: 0;
   padding: 0;
 }
-:root{
-  --btn-background-color: 
-}
-body, main{
+body{
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(54, 59, 65);
 }
-/* #full-size-h {
-  text-align: center;
-  font-size: 1.5em;
-  color: #000;
-} */
+main{
+  margin: 20px;
+}
 .container {
   color: #353535;
   background: aliceblue;
