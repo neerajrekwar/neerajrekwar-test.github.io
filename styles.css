@@ -7,10 +7,6 @@
 }
 body{
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(54, 59, 65);
 }
 main{
   color: #fff;
@@ -19,22 +15,24 @@ main{
 
 header{
   position: sticky;
-  border: 2px solid greenyellow
-  height: auto
+  border: 2px solid greenyellow;
+  width: auto;
+  height: auto;
 }
 nav{}
 ul{
-  display: inline-flex;
-  justify-content: ;
+  display: flex;
+  justify-content:center;
   align-items: center;
+  column-gap: 35px;
 }
 li{
-  color: #fff;
+  color: #353535;
   list-style: none;
 }
 a{
   text-decoration: none;
-  color: #fff;
+  color: #353535;
 }
 
 
@@ -66,11 +64,15 @@ form{
 }
 label{
   margin-bottom: 10px;
+  font-size: .8em;
+  font-weight: normal;
 }
 input{
+  font-size: .8em;
   width: 100%;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2em;
   height: 33px;
+  opacity: .8;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -81,7 +83,7 @@ input{
   background: transparent;
 }
 
-.formbox button{
+.formbox .btn1, .btn2{
   display: inline;
   justify-self: center;
   align-self: flex-end;
@@ -94,10 +96,10 @@ button{
   border-radius: 25px;
   display: inline-flex;
 }
-button:hover{
+.btn1, .btn2:hover{
   height: 2.6em;
   width: 8.6em;
-  transition: margin-right 2s ease-in-out .5s;
+  transition: margin-right 2s ease-in .5s;
   transform: matrix3d();
   
 }
@@ -108,3 +110,4 @@ button:hover{
   border: none;
   color: aliceblue;
   background: linear-gradient(45deg, hsla(34, 86%, 58%, 1) 0%, hsla(335, 81%, 65%, 1) 100%);
+}
