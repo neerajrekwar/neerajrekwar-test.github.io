@@ -5,36 +5,54 @@
   margin: 0;
   padding: 0;
 }
-body{
+
+body {
   margin: 0 auto;
+  background-position-x: center;
+  background-color: #353535;
 }
-main{
-  color: #fff;
+
+main {
+  backdrop-filter: blur(10px);
   /* border: 2px solid darkblue; */
 }
 
-header{
+header {
   position: sticky;
   border: 2px solid greenyellow;
   width: auto;
   height: auto;
 }
-nav{}
-ul{
+
+nav {
+  color: #fff;
+}
+
+ul {
+  color: #fff;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   column-gap: 35px;
 }
-li{
-  color: #353535;
-  list-style: none;
-}
-a{
-  text-decoration: none;
-  color: #353535;
+
+li {
+  margin: 10px;
+  /* list-style: none; */
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  color: #fff;
 }
 
+li:hover {
+  color: aqua;
+}
+
+a {
+  font-size: larger;
+  color: #fff;
+  text-decoration: none;
+}
 
 .container {
   overflow: hidden;
@@ -47,27 +65,34 @@ a{
   border-radius: 25px;
   border: none;
 }
-h1{
+
+h1 {
   margin: 20px 0;
   font-size: 1.5rem;
 }
-p{
+
+p {
   margin: 2.5rem 0;
   font-size: .9rem;
 }
-form{
+
+form {
   font-family: 'Courier New', Courier, monospace;
 
 }
-.formbox label, input{
+
+.formbox label,
+input {
   display: flex;
 }
-label{
+
+label {
   margin-bottom: 10px;
   font-size: .8em;
   font-weight: normal;
 }
-input{
+
+input {
   font-size: .8em;
   width: 100%;
   margin-bottom: 2em;
@@ -83,30 +108,41 @@ input{
   background: transparent;
 }
 
-.formbox .btn1, .btn2{
+.formbox .btn1,
+.btn2 {
   display: inline;
   justify-self: center;
   align-self: flex-end;
 }
 
-button{
+button {
   height: 2.5em;
   width: 8.5em;
   /* width: 80%; */
   border-radius: 25px;
   display: inline-flex;
 }
-.btn1, .btn2:hover{
+
+.btn1:hover {
   height: 2.6em;
   width: 8.6em;
   transition: margin-right 2s ease-in .5s;
   transform: matrix3d();
-  
 }
-.btn1{
+
+.btn2:hover {
+  height: 2.6em;
+  width: 8.6em;
+  transition: margin-right 2s ease-in .5s;
+  transform: matrix3d();
+
+}
+
+.btn1 {
   border: 2px solid;
 }
-.btn2{
+
+.btn2 {
   border: none;
   color: aliceblue;
   background: linear-gradient(45deg, hsla(34, 86%, 58%, 1) 0%, hsla(335, 81%, 65%, 1) 100%);
