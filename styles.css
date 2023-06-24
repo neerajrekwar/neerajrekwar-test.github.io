@@ -123,22 +123,18 @@ button {
 }
 
 .btn1:hover {
-  height: 2.6em;
-  width: 8.6em;
   transition: margin-right 2s ease-in .5s;
   transform: matrix3d();
 }
 
 .btn2:hover {
-  height: 2.6em;
-  width: 8.6em;
   transition: margin-right 2s ease-in .5s;
   transform: matrix3d();
 
 }
 
 .btn1 {
-  border: 2px solid;
+  /* border: 2px solid; */
 }
 
 .btn2 {
