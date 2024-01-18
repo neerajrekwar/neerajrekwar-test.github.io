@@ -3,35 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.jsdelivr.net/jsbarcode/3.11.0/JsBarcode.all.min.js"></script>
   <title>Barcode Generator</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@jhildenbiddle/sass-helpers@1.1.1/dist/sass-helpers.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+
+    #barcode-input {
+      width: 300px;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    #generate-button {
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #barcode-display {
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
 
-<!-- Place to display the barcode -->
-<div id="barcode"></div>
+  <h1>Barcode Generator</h1>
 
-<!-- Input to get barcode value -->
-<input type="text" id="barcode-input" placeholder="Enter barcode value">
+  <input type="text" id="barcode-input" placeholder="Enter text for barcode">
+  <button id="generate-button" onclick="generateBarcode()">Generate Barcode</button>
 
-<!-- Button to generate barcode -->
-<button onclick="generateBarcode()">Generate Barcode</button>
+  <div id="barcode-display"></div>
 
-<script>
-  function generateBarcode() {
-    // Get the input value
-    var barcodeValue = document.getElementById("barcode-input").value;
+  <script>
+    function generateBarcode() {
+      var inputText = document.getElementById("barcode-input").value;
+      var barcodeDisplay = document.getElementById("barcode-display");
 
-    // Clear previous barcode
-    document.getElementById("barcode").innerHTML = "";
-
-    // Generate new barcode
-    JsBarcode("#barcode", barcodeValue, {
-      format: "CODE128",
-      displayValue: true
-    });
-  }
-</script>
+      if (inputText.trim() !== "") {
+        JsBarcode("#barcode-display", inputText, {
+          format: "CODE128",
+          displayValue: true,
+          fontSize: 16,
+          width: 2,
+          height: 80
+        });
+      } else {
+        barcodeDisplay.innerHTML = "Please enter text for the barcode.";
+      }
+    }
+  </script>
 
 </body>
 </html>
