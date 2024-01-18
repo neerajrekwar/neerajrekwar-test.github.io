@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/jsbarcode/3.11.0/JsBarcode.all.min.js"></script>
+  <title>Barcode Generator</title>
+</head>
+<body>
+
+<!-- Place to display the barcode -->
+<div id="barcode"></div>
+
+<!-- Input to get barcode value -->
+<input type="text" id="barcode-input" placeholder="Enter barcode value">
+
+<!-- Button to generate barcode -->
+<button onclick="generateBarcode()">Generate Barcode</button>
+
+<script>
+  function generateBarcode() {
+    // Get the input value
+    var barcodeValue = document.getElementById("barcode-input").value;
+
+    // Clear previous barcode
+    document.getElementById("barcode").innerHTML = "";
+
+    // Generate new barcode
+    JsBarcode("#barcode", barcodeValue, {
+      format: "CODE128",
+      displayValue: true
+    });
+  }
+</script>
+
+</body>
+</html>
