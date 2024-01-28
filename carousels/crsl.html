@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dense Photo Gallery with Flickity</title>
+  <!-- Flickity CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Flickity JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+  <!-- Custom Styles -->
+  <style>
+    .gallery {
+      width: 80%;
+      margin: auto;
+    }
+    .gallery-cell {
+      width: calc(33.3333% - 20px);
+      margin-right: 20px;
+    }
+    .gallery-cell img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+<div class="gallery">
+  <div class="gallery-cell"><img src="image1.jpg" alt="Image 1"></div>
+  <div class="gallery-cell"><img src="image2.jpg" alt="Image 2"></div>
+  <div class="gallery-cell"><img src="image3.jpg" alt="Image 3"></div>
+  <!-- Add more images here -->
+</div>
+
+<script>
+  $(document).ready(function(){
+    $('.gallery').flickity({
+      // options
+      cellAlign: 'left',
+      contain: true,
+      wrapAround: true,
+      autoPlay: 2000 // autoplay every 2 seconds
+    });
+  });
+</script>
+
+</body>
+</html>
