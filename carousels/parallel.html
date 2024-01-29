@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallel Web Carousel with Dense Photo Gallery</title>
+  <!-- Slick Carousel CDN -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Slick Carousel JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- Custom Styles -->
+  <style>
+    .carousel-container {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+    }
+    .carousel {
+      width: 30%;
+    }
+    .carousel img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<div class="carousel-container">
+  <!-- First Carousel -->
+  <div class="carousel">
+    <div><img src="category1_image1.jpg" alt="Category 1 Image 1"></div>
+    <div><img src="category1_image2.jpg" alt="Category 1 Image 2"></div>
+    <div><img src="category1_image3.jpg" alt="Category 1 Image 3"></div>
+    <!-- Add more images as needed -->
+  </div>
+  <!-- Second Carousel -->
+  <div class="carousel">
+    <div><img src="category2_image1.jpg" alt="Category 2 Image 1"></div>
+    <div><img src="category2_image2.jpg" alt="Category 2 Image 2"></div>
+    <div><img src="category2_image3.jpg" alt="Category 2 Image 3"></div>
+    <!-- Add more images as needed -->
+  </div>
+  <!-- Third Carousel -->
+  <div class="carousel">
+    <div><img src="category3_image1.jpg" alt="Category 3 Image 1"></div>
+    <div><img src="category3_image2.jpg" alt="Category 3 Image 2"></div>
+    <div><img src="category3_image3.jpg" alt="Category 3 Image 3"></div>
+    <!-- Add more images as needed -->
+  </div>
+</div>
+
+<script>
+  $(document).ready(function(){
+    // Initialize each carousel
+    $('.carousel').slick({
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: true,
+      arrows: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  });
+</script>
+
+</body>
+</html>
